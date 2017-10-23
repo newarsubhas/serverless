@@ -59,7 +59,7 @@ When you create a table, you specify how much provisioned throughput capacity yo
 
 This is can be done via settings in the serverless.yml.
 
-  ProvisionedThroughput:
-    ReadCapacityUnits: 1
-    WriteCapacityUnits: 1
+    -ProvisionedThroughput:
+    -ReadCapacityUnits: 1
+    -WriteCapacityUnits: 1
 In case you expect a lot of traffic fluctuation we recommend to checkout this guide on how to auto scale DynamoDB https://aws.amazon.com/blogs/aws/auto-scale-dynamodb-with-dynamic-dynamodb/
