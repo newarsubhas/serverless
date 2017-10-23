@@ -1,0 +1,13 @@
+{
+  "name": "aws-node-restapi-mongodb",
+  "version": "1.0.0",
+  "description": "Serverless REST API with MongoDB using Mongoose and Bluebird",
+  "main": "handler.js",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "mongoose": "^4.12.4",
+    "validator": "^9.0.0"
+  },
+  "author": "pabhatiitbhu@gmail.com",
+  "license": "MIT"
+}
